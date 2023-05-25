@@ -1,5 +1,48 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Arial';
+}
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    background-color: rgb(123, 192, 238);
+}
+
+.small a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px
+}
+.small h1{
+    color: white;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+    flex-wrap: wrap;
+}
+.cont img{
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+    background-color: rgb(123, 192, 238);
+    color: white;
+    font-size: 18px;
+}
+.details p{
+    line-height: 1.5;
 }
